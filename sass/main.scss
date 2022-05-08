@@ -1,7 +1,12 @@
+// UTILITIES
+
 @import './utils/vars';
 @import './utils/hidden';
 @import './base/common';
 @import './base/reset';
+
+// COMPONENTS
+
 @import './components/container';
 @import './components/title';
 @import './components/sub-title';
@@ -9,3 +14,14 @@
 @import './components/button';
 @import './components/section';
 @import './components/logo';
+
+// LAYOUT
+@import './layout/header';
+@import './layout/hero';
+@import './layout/preferences';
+@import './layout/occupation';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/portfolio';
+@import './layout/modal';
