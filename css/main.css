@@ -1,0 +1,135 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-heading-color: #212121;
+  --secondary-heading-color: #ffffff;
+  --primary-text-color: #757575;
+  --contacts-text-color: #757575;
+  --nav-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  --address-text-color: rgba(255, 255, 255, 0.6);
+  --logo-first-color: #000000;
+  --logo-second-color: #ffffff;
+  --bg-first-color: #ffffff;
+  --bg-second-color: #2f303a;
+  --bg-third-color: #f5f4fa;
+  --border-first-color: #ececec;
+  --border-second-color: #eeeeee;
+  --section-padding: 94px;
+  --icon-first-color: #afb1b8;
+  --icon-second-color: #ffffff;
+  --overlay-bg-first-color: rgba(47, 48, 58, 0.8);
+  --overlay-bg-second-color: rgba(33, 150, 243, 0.9);
+  --overlay-bg-third-color: rgba(0, 0, 0, 0.2);
+  --overlay-text-color: #ffffff;
+  --animation-time: 250ms;
+  --animation-cubic: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-first-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container--center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container--baseline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.title {
+  color: var(--primary-heading-color);
+}
+
+.sub-title {
+  color: var(--primary-heading-color);
+  font-weight: 500;
+}
+
+.text {
+  color: var(--primary-text-color);
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.section {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
+.logo {
+  font-family: 'Raleway';
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo--dark {
+  color: var(--logo-first-color);
+}
+
+.logo--light {
+  color: var(--logo-second-color);
+}
+/*# sourceMappingURL=main.css.map */
